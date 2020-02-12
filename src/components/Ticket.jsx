@@ -13,7 +13,7 @@ function Ticket(props){
   }
   return (
     <div style={myStyledComponentStyles}>
-      <h3>{props.location} - {props.names}</h3>
+      <h3><span className="station">{props.location}</span> - {props.names}</h3>
       <p style={pinkIssueStyle}><em>{props.issue}</em></p>
       <hr/>
     </div>
