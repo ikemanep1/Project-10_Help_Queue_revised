@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function Header(props){
   return (
@@ -12,6 +13,7 @@ function Header(props){
           color: purple;
         }
         `}</style>
+        <Link to="/">Home</Link> | <Link to="/newticket">Create Ticket</Link>
       </div>
     )
   }
