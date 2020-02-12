@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import './Ticket.css'
 
 function Ticket(props){
   var myStyledComponentStyles = {
